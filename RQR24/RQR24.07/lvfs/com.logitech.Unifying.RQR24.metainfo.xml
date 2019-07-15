@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2017 Logitech -->
+<!-- Copyright (C) 2017 Logitech -->
 <component type="firmware">
   <id>com.logitech.Unifying.RQR24.signed.firmware</id>
   <name>Logitech Unifying Receiver</name>
-  <summary>Firmware for the Logitech Unifying receiver</summary>
+  <summary>Firmware for the Logitech Unifying Receiver (RQR24.xx)</summary>
   <description>
     <p>
       A Unifying receiver allows you to connect multiple compatible keyboards
@@ -45,7 +45,6 @@
     <firmware compare="regex" version="MPK03.0[0-1]_*">not-child</firmware>
     <firmware compare="regex" version="MPK04.00_*">not-child</firmware>
   </requires>
-
   <custom>
     <value key="LVFS::UpdateProtocol">com.logitech.unifyingsigned</value>
   </custom>
